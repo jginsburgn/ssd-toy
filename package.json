@@ -1,0 +1,23 @@
+{
+  "name": "ssd-toy",
+  "version": "0.0.0",
+  "description": "A Single Shot Detector toy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jginsburgn/ssd-toy.git"
+  },
+  "author": "Jonathan Ginsburg",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jginsburgn/ssd-toy/issues"
+  },
+  "homepage": "https://github.com/jginsburgn/ssd-toy#readme",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^1.0.0",
+    "@tensorflow/tfjs": "^1.0.2"
+  }
+}
