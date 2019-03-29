@@ -7,6 +7,10 @@ async function bootSequence() {
       drawImage(imageElement, result);
     }
     detector = await cocoSsd.load("mobilenet_v2");
+    const c = document.getElementById('canvas');
+    c.style.display = "block";
+    const l = document.getElementById('loading-indicator');
+    l.parentElement.removeChild(l);
     setCanvasSize();
     setInterval(()=>{
       detect();

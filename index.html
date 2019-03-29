@@ -11,7 +11,11 @@
 
 <body>
     <div id="container">
-        <canvas id="canvas"></canvas>
+        <div id="loading-indicator">
+            <img id="loading" src="src/assets/loading.gif" alt="Loading Spinner">
+            <h1>Loading</h1>
+        </div>
+        <canvas id="canvas" style="display: none;"></canvas>
         <img id="image" style="display: none;">
     </div>
     <script src="node_modules/@tensorflow/tfjs/dist/tf.min.js"></script>
